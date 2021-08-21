@@ -17,6 +17,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   void initState() {
     super.initState();
 
+    //커스텀 애니메이션 구현
     controller = AnimationController(
       duration: Duration(seconds: 1),
       vsync: this,
