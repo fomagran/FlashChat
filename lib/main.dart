@@ -4,7 +4,6 @@ import 'package:flash_chat/screens/login_screen.dart';
 import 'package:flash_chat/screens/registration_screen.dart';
 import 'package:flash_chat/screens/chat_screen.dart';
 
-//
 void main() => runApp(FlashChat());
 
 class FlashChat extends StatelessWidget {
@@ -18,6 +17,7 @@ class FlashChat extends StatelessWidget {
       ),
       home: WelcomeScreen(),
       initialRoute: WelcomeScreen.id,
+      //루트 지정하기
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),
         LoginScreen.id: (context) => LoginScreen(),
