@@ -52,6 +52,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
           children: <Widget>[
             Row(
               children: <Widget>[
+                //히어로 애니메이션
                 Hero(
                   tag: 'logo',
                   child: Container(
